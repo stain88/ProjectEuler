@@ -1,0 +1,1 @@
+puts (1...1000).to_a.keep_if{|i| i%3==0 || i%5==0}.reduce(:+)
